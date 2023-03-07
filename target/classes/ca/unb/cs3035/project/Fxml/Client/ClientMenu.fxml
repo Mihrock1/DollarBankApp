@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox id="vbox" prefHeight="28" prefWidth="850" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.unb.cs3035.project.Controllers.Client.ClientMenuController">
+   <MenuBar prefHeight="28.0" prefWidth="600.0">
+      <Menu mnemonicParsing="false" text="Application">
+         <MenuItem fx:id="switch_user" mnemonicParsing="false" text="Switch User" />
+         <MenuItem mnemonicParsing="false" onAction="#quitButtonClicked" text="Quit" />
+      </Menu>
+      <Menu mnemonicParsing="false" text="Manage">
+         <MenuItem fx:id="dashboard" mnemonicParsing="false" text="Dashboard" />
+         <MenuItem fx:id="transactions" mnemonicParsing="false" text="Transactions" />
+         <MenuItem fx:id="accounts" mnemonicParsing="false" text="Accounts" />
+      </Menu>
+      <Menu mnemonicParsing="false" text="Help">
+         <MenuItem fx:id="help" mnemonicParsing="false" text="Get Help" />
+         <MenuItem fx:id="about" mnemonicParsing="false" text="About" />
+      </Menu>
+   </MenuBar>
+   <Label fx:id="label">
+      <font>
+         <Font size="1.0" />
+      </font></Label>
+</VBox>

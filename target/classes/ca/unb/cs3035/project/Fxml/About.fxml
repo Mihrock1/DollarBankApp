@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1000.0" style="-fx-background-color: #6B5B95;"
+            xmlns="http://javafx.com/javafx/17.0.2-ea">
+    <Text fill="WHITE" layoutX="374.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 3em;" text="DOLLAR BANK" AnchorPane.leftAnchor="374.0" AnchorPane.topAnchor="56.0" />
+    <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="350.0" layoutY="179.0">
+        <Image url="@../Images/icon.png" />
+    </ImageView>
+   <Text fill="WHITE" layoutX="777.0" layoutY="688.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 3em;" text="Mihir Atrey" />
+</AnchorPane>
